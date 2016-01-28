@@ -1,12 +1,15 @@
 fileFormatVersion: 2
 guid: 047c69aa16e21487f9958c18dd87ca9a
-timeCreated: 1452178947
+timeCreated: 1453906495
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: ground
     21300002: player
     21300004: platform
+    21300006: spikes
+    21300008: checkpoint
+    21300010: dirt
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -79,6 +82,39 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spikes
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 12
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: checkpoint
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirt
+      rect:
+        serializedVersion: 2
+        x: 22
         y: 2
         width: 8
         height: 8
